@@ -1,4 +1,4 @@
-# Django Intro - http, template, static 🚀
+# Django Intro - http, template, static, default admin pannel 🚀
 
 This project demonstrates the basic workflow of Django:
 
