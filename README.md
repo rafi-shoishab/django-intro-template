@@ -1,12 +1,31 @@
-# Django Intro - http, template, static, default admin pannel 🚀
+# Django Intro - 🚀
 
 This project demonstrates the basic workflow of Django:
 
-* Django project setup
-* HTTP response handling
-* URL routing
-* Template rendering (HTML)
-* Django request → response flow
+* Django project setup ✔ - Django install, Create project, runserver, Project structure, startapp, settings.py
+* URL Routing ✔ - urls.py, path(), include(), project urls vs app urls
+* Views ✔ - function based views, HttpResponse, render(), redirect()
+* Templates ✔ - template folder, variables, loops, conditions, template inheritance, include
+* Static Files ✔ - static folder, STATIC_URL, {% load static %}
+* Models (Database) ✔ - models.py, field types, relationships, makemigrations, migrate
+* CRUD Operations ✔ - 
+            Create → create data
+            Read → list view
+            Update → edit data
+            Delete → remove data
+  
+* Forms ✔ - Django forms, ModelForm, validation
+* File & Image Upload ✔ - ImageField, MEDIA_ROOT, MEDIA_URL
+* Security ✔ - CSRF, authentication, permissions
+* Search & Filtering ✔ - Database search, query 
+* Authentication (Auth) ✔ - register, login, logout, authenticate(), login_required decorator
+* Custom User Model ✔ - AbstractUser, AbstractBaseUser, Custom fields, Role based system
+* Permissions & Roles- Access control, user roles, group permissions, decorators
+* Pagination - Large data handle
+* Signals - Automatic events
+            user create → profile auto create
+* Django REST Backend API - Django REST Framework, serializers, API views, JWT auth
+* Deployment Project live - Gunicorn, Nginx, Docker, PostgreSQL, VPS
 
 This is a beginner-friendly project to understand how Django works internally.
 
@@ -55,8 +74,8 @@ django-intro-template/
 ### 1.0 Clone Repository
 
 ```
-git clone https://github.com/rafi-shoishab/django-intro-template.git
-cd django-intro-template
+git clone https://github.com/rafi-shoishab/django-intro.git
+cd django-intro
 ```
 
 ---
