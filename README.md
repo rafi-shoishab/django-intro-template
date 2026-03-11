@@ -16,16 +16,20 @@ This project demonstrates the basic workflow of Django:
   
 * Forms ✔ - Django forms, ModelForm, validation
 * File & Image Upload ✔ - ImageField, MEDIA_ROOT, MEDIA_URL
-* Security ✔ - CSRF, authentication, permissions
-* Search & Filtering ✔ - Database search, query 
+* Security ✔ - CSRF, authentication, permissions, XSS protection, SQL injection protection
+* Search & Filtering ✔ - Database search, Query search, icontains, Filter results 
 * Authentication (Auth) ✔ - register, login, logout, authenticate(), login_required decorator
 * Custom User Model ✔ - AbstractUser, AbstractBaseUser, Custom fields, Role based system
-* Permissions & Roles- Access control, user roles, group permissions, decorators
+* Permissions & Groups - Access control, user roles, group permissions, decorators
 * Pagination - Large data handle
 * Signals - Automatic events
             user create → profile auto create
-* Django REST Backend API - Django REST Framework, serializers, API views, JWT auth
+* Middleware - Custom request processing, Authentication, Logging
+* Caching - Redis, Memcached
+* Django REST Backend API - Django REST Framework (DRF), serializers, API views, Token Auth, O Auth, JWT auth, ViewSets, Routers
+* Serializers - Convert models to JSON 
 * Deployment Project live - Gunicorn, Nginx, Docker, PostgreSQL, VPS
+* Scaling & Production - Load balancing, Cloud hosting, Monitoring, CI/CD
 
 This is a beginner-friendly project to understand how Django works internally.
 
